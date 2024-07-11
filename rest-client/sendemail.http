@@ -15,7 +15,7 @@ POST http://localhost/api/v1/endpoint-webservice/
   "message": "Hola mundo"
 }
 
-###Email erroneo###
+###Email erróneo###
 POST http://localhost/api/v1/endpoint-webservice/
 
 {
