@@ -1,0 +1,34 @@
+POST http://localhost/api/v1/endpoint-webservice/
+
+{
+  "name": "Andrea",
+  "email": "andreacuencardzo@gmail.com",
+  "message": "Hola mundo"
+}
+
+###Dato faltante###
+POST http://localhost/api/v1/endpoint-webservice/
+
+{
+  "name": "",
+  "email": "andreacuencardzo@gmail.com",
+  "message": "Hola mundo"
+}
+
+###Email erroneo###
+POST http://localhost/api/v1/endpoint-webservice/
+
+{
+  "name": "Andrea",
+  "email": "andreacuencardzo@.com",
+  "message": "Hola mundo"
+}
+
+###Sin datos###
+POST http://localhost/api/v1/endpoint-webservice/
+
+{
+  "name": "",
+  "email": "",
+  "message": ""
+}
